@@ -1,0 +1,44 @@
+{
+  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string",
+          "single": false
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "pubDate",
+          "name": "pubDate",
+          "type": "datetime"
+        },
+        {
+          "title": "heroImage",
+          "name": "heroImage",
+          "type": "image",
+          "isPreviewImage": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000/blog",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "frontmatter-intro",
+      "path": "[[workspace]]",
+      "previewPath": "blog"
+    }
+  ]
+}
